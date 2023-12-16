@@ -1,310 +1,300 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-.navTop{
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    background-color: #373737;
-    padding: 0 20pc;
-    color: #ffffff;
+.navTop {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #373737;
+  padding: 0 20pc;
+  color: #ffffff;
 }
 
-.listaTop{
-    display: flex;
+.listaTop {
+  display: flex;
 }
 
-.listaTop li{
-    padding: 10px;
+.listaTop li {
+  padding: 10px;
 }
 
 #entradas {
-    background-color: #e7d800;
-    color: #373737;
+  background-color: #e7d800;
+  color: #373737;
 }
 
 #ES {
-    border: solid 1px white;
+  border: solid 1px white;
 }
 
 #entradas:hover {
-    background-color: #555555;
-
-    
+  background-color: #555555;
 }
 
-body{
-    background-color: #ffffff;
-
-
+body {
+  background-color: #ffffff;
 }
-header{
-    display: flex;
-    width: 1170px;
-    margin: 0 auto;
-    padding: 30px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.navigation{
-    display: flex;
-    align-items: center;
+.navigation {
+  display: flex;
+  align-items: center;
 }
-header nav{
-    display: flex;
-    flex-direction: column;
+header nav {
+  display: flex;
+  flex-direction: column;
 }
-header ul{
-    display: flex;
-    list-style: none;
-
+header ul {
+  display: flex;
+  list-style: none;
 }
-.Negrilla{
-    font-weight: bold;
-    color: #373737;
-    font-size: 19px;
+.Negrilla {
+  font-weight: bold;
+  color: #373737;
+  font-size: 19px;
 }
 
-.Gris{
-    font-size: 13px;
-    color: #999999;
-    justify-content: end;
+.Gris {
+  font-size: 13px;
+  color: #999999;
+  justify-content: end;
 }
 
-.listaBottomNav li{
-    padding: 5px 15px;
+.listaBottomNav li {
+  padding: 5px 15px;
 }
 
-.imageContainer{
-    display: flex;
-    align-items: center;
-    overflow-x: scroll;
-    background-color:#e0dedec8;
-    gap: 20px;
-    
-    
+.imageContainer {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  background-color: #e0dedec8;
+  gap: 20px;
 }
 
-.estilo{
-    font-size: 25px;
+.estilo {
+  font-size: 25px;
 }
 
-.imageContainer::-webkit-scrollbar{
-    height: 20px;
+.imageContainer::-webkit-scrollbar {
+  height: 20px;
 }
 
-.imageContainer h1{
-    font-weight: bold;
-    font-size: 2pc;
-
+.imageContainer h1 {
+  font-weight: bold;
+  font-size: 2pc;
 }
 
-.imageContainer div{
-    width: 70%;
-    height: 23pc;
-    background-color: #ffffff;
-
+.imageContainer div {
+  width: 70%;
+  height: 23pc;
+  background-color: #ffffff;
 }
-.imageContainer img{
-    width: 51pc;
-    height: 23pc;
-    
+.imageContainer img {
+  width: 51pc;
+  height: 23pc;
 }
 .textoImg {
-    display: flex;
-    align-items: center;
-    width: 1170px;
+  display: flex;
+  align-items: center;
+  width: 1170px;
 }
 .textoImg div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    padding: 30px;
-    justify-content: center;
-    text-align: left;
-    width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 30px;
+  justify-content: center;
+  text-align: left;
+  width: 400px;
 }
 .textoImg img {
-    height: 100%;
+  height: 100%;
 }
-.containerLayout{
-    padding: 0 10pc;
+.containerLayout {
+  padding: 0 10pc;
 }
-.textoImg span{
-    background-color: goldenrod;
-    margin-right: 5px;
-}
-
-.informacion{
-    color: #795f31;
-    background-color: #EEE5D5;
-    margin: 0px 0px 30px ;
-    padding: 15px 30px 15px 15px;
-    font-size: 15px;
-    position: relative;
-    border: none;
-    border-radius: 0;
-    text-shadow: none;
+.textoImg span {
+  background-color: goldenrod;
+  margin-right: 5px;
 }
 
-#Parrafo{
-    text-decoration: none;
-    color: #373737;
+.informacion {
+  color: #795f31;
+  background-color: #eee5d5;
+  margin: 0px 0px 30px;
+  padding: 15px 30px 15px 15px;
+  font-size: 15px;
+  position: relative;
+  border: none;
+  border-radius: 0;
+  text-shadow: none;
+}
+
+#Parrafo {
+  text-decoration: none;
+  color: #373737;
 }
 
 main {
-    padding: 5pc 10pc;
+  padding: 5pc 10pc;
 }
 
 /* .h-2{
     padding: 10px 0;
 } */
 
-.container-h2{
-    display: flex;
-    justify-content: space-between;
+.container-h2 {
+  display: flex;
+  justify-content: space-between;
 }
 .container-h2 section {
-    gap: 0.6pc;
-    display: flex;
-    flex-direction: column;
+  gap: 0.6pc;
+  display: flex;
+  flex-direction: column;
 }
-.barra{
-    width: 1px;
-    background-color: #373737;
+.barra {
+  width: 1px;
+  background-color: #373737;
 }
-.exposicion{
-    display: flex;
-    flex-direction: column;
-    gap: 1pc;
+.exposicion {
+  display: flex;
+  flex-direction: column;
+  gap: 1pc;
 }
 .buttonMore {
-    background-color: #373737;
-    color: wheat;
-    border: none;
-    width: 15pc;
-    height: 2.5pc;
-    border-radius: 4px;
+  background-color: #373737;
+  color: wheat;
+  border: none;
+  width: 15pc;
+  height: 2.5pc;
+  border-radius: 4px;
 }
 
-.boton1{
-    background-color: #373737;
-    color: wheat;
-    border: none;
-    width: 5pc;
-    height: 2.5pc;
-    border-radius: 4px;
+.boton1 {
+  background-color: #373737;
+  color: wheat;
+  border: none;
+  width: 5pc;
+  height: 2.5pc;
+  border-radius: 4px;
 }
 
-.Coleccion{
-    display: flex;
-    flex-direction: column;
-    gap: 1pc;
-    padding: 5pc 0;
+.Coleccion {
+  display: flex;
+  flex-direction: column;
+  gap: 1pc;
+  padding: 5pc 0;
 }
 
-.coleccion img{
-    padding: 5pc 10pc;
+.coleccion img {
+  padding: 5pc 10pc;
 }
 
-.Imagen-inferior{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
+.Imagen-inferior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
 }
 
-#IMAGEN{
-    width: 100%;
+#IMAGEN {
+  width: 100%;
 }
-.ACTIVIDADES{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.actividadesH{
-    padding: 15px 0px;
+.ACTIVIDADES {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.sectiontop{
-    display: flex;
-    align-items: center;
+.actividadesH {
+  padding: 15px 0px;
 }
 
-.containerCard{
-
-    display: flex;
-
+.sectiontop {
+  display: flex;
+  align-items: center;
 }
 
-.picture{
-    width: 400px;
-    height: 60vh;
-    overflow: hidden;
-    padding: 0 20px;
+.containerCard {
+  display: flex;
 }
 
-#boton{
-    padding: 4px;
-    background-color: rgb(242, 220, 164);
-    color: brown;
-    width: 50%;
+.picture {
+  width: 400px;
+  height: 60vh;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+#boton {
+  padding: 4px;
+  background-color: rgb(242, 220, 164);
+  color: brown;
+  width: 50%;
 }
 
 p,
 h3,
 h4,
-a{
-    padding: 4px;
+a {
+  padding: 4px;
+}
+
+.container-visitas section {
+  gap: 0.6pc;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagene {
+  display: flex;
+  flex-direction: row;
+  width: 18pc;
+}
+
+.container-visitas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.visita {
+  padding: 50px 0;
+}
+.visitasP {
+  padding: 15px 0px;
+}
+
+.multimedia {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.BarraMultimedia {
+  width: 23pc;
+}
+.BarraMultimedia img {
+  width: 100%;
+}
+.textoBarra {
+  padding: 15px 0px;
 }
 
 
-.container-visitas section {
-        gap: 0.6pc;
-        display: flex;
-        flex-direction: column;
-    }    
-
-    .imagene {
-        display: flex;
-        flex-direction: row;
-        width: 18pc;
-      
-    }
-    
-    .container-visitas{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-
-    }
-
-    .visita{
-        padding: 50px 0;
-    }
-    .visitasP {
-        padding:15px 0px;
-    }
-
-    .multimedia{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .BarraMultimedia{
-        width: 23pc;
-    }
-    .BarraMultimedia img {
-        width: 100%;
-    }
-    .textoBarra{
-        padding: 15px 0px;
-    }
+.textoBarra{
+    background-color: red;
+}
